@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "table_project",
+  "stanza:label": "info table for project",
+  "stanza:definition": "Display information table for project.",
+  "stanza:parameter": [
+     {
+       "stanza:key": "project",
+       "stanza:example": "JPST001631",
+       "stanza:description": "project",
+       "stanza:required": true
+     }
+  ],
+  "stanza:usage": "<togostanza-table_project project='JPST001631'></togostanza-table_project>",
+  "stanza:type": "Stanza",
+  "stanza:context": "Dataset",
+  "stanza:display": "Table",
+  "stanza:provider": "jPOST database",
+  "stanza:license": "CC BY",
+  "stanza:author": "Yuki Moriya",
+  "stanza:address": "moriya@dbcls.rois.ac.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2017-10-31",
+  "stanza:updated": "2022-05-11"
+}

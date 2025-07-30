@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "table_protein",
+  "stanza:label": "info table for peptide",
+  "stanza:definition": "Display information table for peptide.",
+  "stanza:parameter": [
+     {
+       "stanza:key": "peptide",
+       "stanza:example": "PEP1780_1_15098",
+       "stanza:description": "a peptide id",
+       "stanza:required": true
+     }
+  ],
+  "stanza:usage": "<togostanza-table_peptide peptide='PEP1780_1_15098'></togostanza-table_peptide>",
+  "stanza:type": "Stanza",
+  "stanza:context": "Peptide",
+  "stanza:display": "Table",
+  "stanza:provider": "jPOST database",
+  "stanza:license": "MIT",
+  "stanza:author": "Yuki Moriya",
+  "stanza:address": "moriya@dbcls.rois.ac.jp",
+  "stanza:contributor": [
+  ],
+  "stanza:created": "2018-03-01",
+  "stanza:updated": "2018-03-02"
+}
