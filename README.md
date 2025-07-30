@@ -1,4 +1,4 @@
-# stanza-v2
-TogoStanza v2
+# jPOSTdb stanza
+TogoStanza (v2) for [jPOSTdb](https://gloab.jpostdb.org/)
 
-* [ts](https://github.com/togostanza/ts)
+* Require [ts](https://github.com/togostanza/ts).
